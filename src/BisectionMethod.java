@@ -41,7 +41,7 @@ public class BisectionMethod{
         System.out.println("1.  2cos(x^2)");
         System.out.println("2.  3x^3 + 7x^2 + 5");
         System.out.println("3.  xcos(x)");
-        System.out.println("4.  3x^2 + 3x^5 + 2 ");
+        System.out.println("4.  3x^2 + 3x^5 + 2 ")
     }
 
     /**
