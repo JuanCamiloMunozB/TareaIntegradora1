@@ -1,4 +1,3 @@
-package ui;
 import java.util.Scanner;
 
 public class BisectionMethod{
@@ -41,6 +40,7 @@ public class BisectionMethod{
         System.out.println("1.  2cos(x^2)");
         System.out.println("2.  3x^3 + 7x^2 + 5");
         System.out.println("3.  xcos(x)");
+        System.out.println("4.  cos(x^3)");
     }
 
     /**
@@ -157,8 +157,11 @@ public class BisectionMethod{
             case 3:
                 fx = x*cosine(x,maxIterations);
                 break;
-        }
 
+            //calculates the value of cos(x^3)
+            case 4:
+                fx = cosine(power(x, 3), maxIterations);
+        }
         return fx;
     }
 
