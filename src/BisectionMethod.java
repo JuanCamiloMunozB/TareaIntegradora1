@@ -41,6 +41,7 @@ public class BisectionMethod{
         System.out.println("1.  2cos(x^2)");
         System.out.println("2.  3x^3 + 7x^2 + 5");
         System.out.println("3.  xcos(x)");
+        System.out.println("4.  3x^2 + 3x^5 + 2 ");
     }
 
     /**
@@ -157,6 +158,13 @@ public class BisectionMethod{
             case 3:
                 fx = x*cosine(x,maxIterations);
                 break;
+
+            case 4 :
+                
+                fx = 3*power(x , 3) + 3*power(x,5) + 2;
+                break;
+
+        
         }
 
         return fx;
