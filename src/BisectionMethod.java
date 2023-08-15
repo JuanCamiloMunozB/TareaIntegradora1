@@ -40,11 +40,8 @@ public class BisectionMethod{
         System.out.println("1.  2cos(x^2)");
         System.out.println("2.  3x^3 + 7x^2 + 5");
         System.out.println("3.  xcos(x)");
-<<<<<<< HEAD
-        System.out.println("4.  3x^2 + 3x^5 + 2 ")
-=======
-        System.out.println("4.  cos(x^3)");
->>>>>>> 182dda23056aeeeead5c91ec023e5744ed9ea73a
+        System.out.println("4.  3x^2 + 3x^5 + 2 ");
+        System.out.println("5.  cos(x^3)");
     }
 
     /**
@@ -161,20 +158,12 @@ public class BisectionMethod{
             case 3:
                 fx = x*cosine(x,maxIterations);
                 break;
-<<<<<<< HEAD
-
             case 4 :
-                
+            //calculates the value of 3x^2 + 3x^5 + 2 
                 fx = 3*power(x , 3) + 3*power(x,5) + 2;
                 break;
-
-        
-        }
-=======
->>>>>>> 182dda23056aeeeead5c91ec023e5744ed9ea73a
-
             //calculates the value of cos(x^3)
-            case 4:
+            case 5:
                 fx = cosine(power(x, 3), maxIterations);
         }
         return fx;
